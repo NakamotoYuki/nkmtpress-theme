@@ -1,0 +1,104 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+
+h1,h2 {
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  border-left: 6px solid var(--gray-dark);
+  @extend .pl-2;
+  @extend .mt-4;
+  @extend .mb-4;
+}
+
+code {
+  color: #444;
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #F0F0F0;
+}
+
+.badge {
+  border: .5px solid;
+}
+
+footer {
+  background-color: var(--gray-dark);
+}
+
+  img{
+    max-width:100%;
+    height: auto;
+  }
+  body {
+    background-color: #f6f6f6;
+  }
+  
+  .main {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    border-bottom: 2px solid #000;
+  }
+  
+  .content {
+    text-align: left;
+  }
+  .copyright{
+    text-align: center;
+    margin: 50px 0;
+    padding-top: 30px;
+    border-top: 1px solid #ccc;
+  }
+
+  .jumbotron {
+    background:url("/wp-content/themes/nkmtpress/img/main.jpg") center no-repeat; background-size: cover;
+  }
+
+  .border-5{
+    border-left: 5px;
+  }
+
+  button > a {
+    color: #3c3c3c;
+    text-decoration: none;
+  }
+
+  button > a:hover {
+    color: #FFFFFF;
+  }
+
+  .p-0 {
+  padding: 0 !important;
+  }
+  .widgettitle {
+    font-size: 0.6 rem;
+  }
+
+  .cat-item{
+    list-style: none;
+  }
+
+  .nav-links{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: .25rem;
+  }
+
+  .left-cate > ul {
+    padding: 0;
+  }
+
+.footer-copyright {
+  margin: 0;
+  color: var(--white);
+}

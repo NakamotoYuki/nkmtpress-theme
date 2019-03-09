@@ -1,0 +1,11 @@
+a {
+    color: var(--gray-dark);
+}
+
+a:hover {
+    color: var(--pink);
+}
+
+.mb-8 {
+  margin-bottom: 18px;
+}
